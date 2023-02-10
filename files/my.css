@@ -1,0 +1,165 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.published {
+        color: #bbb;
+}
+
+.content-info a {
+	color: #ccc;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+ font-size: 0;
+  height: 60px;
+ background: url(/header2.png) no-repeat;
+}
+
+.content-info {
+  margin-top: 30px;
+  padding-top: 5px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron h1 {
+  font-size: 43px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.jumbotron {
+  text-align: center;
+  font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  z-index: 500;
+}
+.jumbotron .btn {
+  padding: 14px 34px;
+  font-size: 21px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 5px 0;
+}
+.marketing  h4 {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 25px;
+}
+.marketing p {
+font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 0px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.lasmer {
+	padding-left: 10px;
+}
+.page-header {
+  padding-bottom: 14px;
+  margin: 5px 0 30px;
+  border-bottom: 1px solid #f2f4f4;
+}
+.nav-pills > li.current_page_item > a,
+.nav-pills > li.current_page_item > a:hover {
+  background-color: #a1a6a9;
+}
+h1, .h1 {
+font-size: 46px;
+}
+.aligncenter{display:block;margin:0 auto}.alignleft{float:left}.alignright{float:right}figure.alignnone{margin-left:0;margin-right:0}
+.thumbnail .caption {
+	font-size: 12px;
+	text-align: right;
+	
+}
+
+@media (max-width: @screen-xs) {
+    .jumbotron h1 {font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    .jumbotron h1 {font-size: 14px;}
+}
+
+.navbar-default {
+	background-color: #fff;
+}
+
+h2, .h2 {
+	font-size: 28px;
+}
+.content img {
+	margin-right: 20px;
+	margin-bottom: 3px;
+}
+h3, .h3 {
+  font-size: 22px;
+}
+.jumbotron { background-color: #fff; margin-bottom: 3px; }
+.header {
+	font-size: 17px;
+}
+.nav-pills > li > a {
+  font-size: 13px;
+  font-weight: normal;	
+}
+li.english a {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAChElEQVQ4T6WTb0gTcRjHv+emU1keglNxmksLkWFEa1MxpQhMCiF9IfUi0qlgGfRHSqyw3qQJlWDRH5McJKWvNEqlZTbYirUhbqnki8uRMWypwdz8t912/W43Kl+F+OUenrvnvs/nfs/97ihsURTpjyIhDefN4HzE7OUBMsf1Oz8VRwrwbDYGL7oNWFtdxXBPJZy1F4EAC/nTDpRV98IfEYmqLKA0lYP4RAViUxITeYBCW6VzXN0vRfoBFewr0Xg9MIam0/lYuP2AAIJIaDyL1scWlCSxUKdKsKzJR3PbCNrbynbwgMy8vBam6KAS5fQiVFkJWFAXIF4UwI/z1wCWRfL9W5ju00OpiINLXYTOLiP0w+Mwm5t3hgDeb9+ZSIkEHHnav3LWnCOAIOS6exvqlCgC/vV1SNPTBMBnTTETG0cj4HYDXNjLkRNiBJ/5WgSxBoWb4ngaK54l5JjfCIBPOYWM1LNCAEvgC3wPuCAosTjUwJExQFHkoEIsER0HrzQGuZMmATBjGWOSZLJw59/VOjSHwfn9yBgf3bi9BOSan0eGRiUAaPokk6rYhS5dDTT2EVhHJ5Fzox4z+4oJwIdMuwGOtShkW9/CNGRDkzMZUxNf4HZ3C4A96kamv7cBilfP8fLDHC5NRMM2pIVDTVbg8yHD/h7KQw/R0alFafArpnr0qJsGTNZ2AWDsH2R2fzTjySSLVhsL//IvzNma4Sg4Koxg0UOhacW6j8WVFi0a9orw7uZdlAz2hQBphuOnZq2uAC4bFv/Mahw4g7lHOrK1AaTUV6PwGPmowqq7UI7KbBFya7XbeQBNQk5i28Y39d8rD3E4eYCIBP9D8XkzChCzjwdsSb8BGvHyk/n7yQEAAAAASUVORK5CYII=) #bdc3c7 no-repeat 3px center;
+}
